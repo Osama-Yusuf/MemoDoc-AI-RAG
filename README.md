@@ -27,7 +27,7 @@ MemoDoc AI is a chat application that allows users to interact with an AI assist
 - **Python 3.7+**
 - **Ollama**: Installed and running locally
 - **Chroma**: Installed for vector storage
-- **llama3**: Pulled with ollama which is the chat model 
+- **llama3**: Pulled with ollama which is the chat model
 - **nomic-embed-text**: Pulled with ollama which is the embedding model
 
 ### Installation
@@ -52,19 +52,11 @@ MemoDoc AI is a chat application that allows users to interact with an AI assist
    pip install -r requirements.txt
    ```
 
-4. **Initialize the Database**
-
-   ```bash
-   python app.py
-   ```
-
-   This will create the SQLite database `chat_app.db`.
-
-5. **Start the Ollama Server**
+4. **Start the Ollama Server**
 
    Ensure that the Ollama server is running and accessible at `http://127.0.0.1:11434`.
 
-6. **Run the Application**
+5. **Run the Application**
 
    ```bash
    uvicorn app:app --reload
@@ -72,7 +64,7 @@ MemoDoc AI is a chat application that allows users to interact with an AI assist
 
    The API will be accessible at `http://localhost:8000`.
 
-7. **Open the Frontend**
+6. **Open the Frontend**
 
    Open `index.html` in your preferred browser, or run:
 

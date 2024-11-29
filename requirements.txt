@@ -9,4 +9,8 @@ chromadb
 tiktoken
 ollama
 langchain-ollama
-langchain-extensions
+uvicorn
+langchain_community
+langchain_chroma
+python-multipart
+unstructured
