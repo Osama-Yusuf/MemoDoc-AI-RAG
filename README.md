@@ -4,6 +4,8 @@ An intelligent AI assistant that learns from both your documents and past conver
 
 ## Overview
 
+![Screenshot of MemoDoc AI](screenshot.jpg)
+
 MemoDoc AI is a chat application that allows users to interact with an AI assistant leveraging both your provided documents and the history of your interactions. By integrating state-of-the-art language models with document retrieval and conversation memory, MemoDoc AI ensures that responses are highly relevant, context-specific, and tailored to your unique needs.
 
 ## Features
@@ -25,6 +27,8 @@ MemoDoc AI is a chat application that allows users to interact with an AI assist
 - **Python 3.7+**
 - **Ollama**: Installed and running locally
 - **Chroma**: Installed for vector storage
+- **llama3**: Pulled with ollama which is the chat model 
+- **nomic-embed-text**: Pulled with ollama which is the embedding model
 
 ### Installation
 
